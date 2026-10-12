@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 180" role="img" aria-labelledby="title desc">
+  <title id="title">Emblema provisório EPP</title>
+  <desc id="desc">Emblema genérico provisório para a Escola Prática de Polícia, a substituir pelo logótipo oficial.</desc>
+  <defs>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173b68"/>
+      <stop offset="1" stop-color="#0b1b2b"/>
+    </linearGradient>
+  </defs>
+  <path d="M80 8 137 29v48c0 39-23 65-57 84C46 142 23 116 23 77V29Z" fill="url(#navy)" stroke="#c9a24b" stroke-width="4"/>
+  <path d="M80 19 126 36v40c0 31-17 53-46 71-29-18-46-40-46-71V36Z" fill="none" stroke="#f7f4eb" stroke-opacity=".75" stroke-width="1.5"/>
+  <path d="m80 31 4.7 9.5 10.5 1.5-7.6 7.4 1.8 10.5L80 55l-9.4 5 1.8-10.5-7.6-7.4 10.5-1.5Z" fill="#e0bd68"/>
+  <path d="M48 72q16-8 32 3 16-11 32-3v31q-16-8-32 3-16-11-32-3Z" fill="#fff" stroke="#c9a24b" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M80 75v31" stroke="#c9a24b" stroke-width="2"/>
+  <path d="M54 79q12-3 21 3M54 87q12-3 21 3M106 79q-12-3-21 3M106 87q-12-3-21 3" stroke="#173b68" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="80" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" letter-spacing="2" fill="#fff">EPP</text>
+</svg>
