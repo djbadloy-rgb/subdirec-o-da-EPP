@@ -19,7 +19,7 @@ const dateLabel = (v: string) => v ? new Date(v + (v.length === 10 ? 'T12:00:00'
 function EppMark({ size = 48 }: { size?: number }) {
   const [failed, setFailed] = useState(false);
   return <div className="brand-mark" style={{ width: size, height: size }}>
-    {!failed && <img src="/epp-logo.png" alt="Emblema da EPP" onError={() => setFailed(true)} />}
+    {!failed && <img src="/epp-logo.svg" alt="Emblema da EPP" onError={() => setFailed(true)} />}
     {failed && <div className="mark-fallback"><ShieldCheck size={size * .52} strokeWidth={1.7}/><span>EPP</span></div>}
   </div>;
 }
