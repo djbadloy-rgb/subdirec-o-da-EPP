@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState, type FormEvent } from 'react';
 import { supabase, isSupabaseConfigured } from './lib/supabase';
 import type { Session } from '@supabase/supabase-js';
-import { Activity, Archive, ArrowDownToLine, Bell, BookOpen, CheckCircle2, ChevronDown, ChevronLeft, ChevronRight, Clock3, FilePlus2, FileSearch, FileText, Filter, GraduationCap, LayoutDashboard, LogOut, Menu, Plus, Search, ShieldCheck, ShieldX, SlidersHorizontal, Sparkles, TrendingUp, Users, X } from 'lucide-react';
+import { Activity, Archive, Bell, CheckCircle2, ChevronDown, ChevronRight, Clock3, FilePlus2, FileSearch, FileText, Filter, GraduationCap, LayoutDashboard, LogOut, Menu, Plus, Search, ShieldCheck, ShieldX, SlidersHorizontal, Sparkles, TrendingUp, Users, X } from 'lucide-react';
 
 type Area = 'administrativa' | 'instrucao_ensino';
 type Role = 'administrador' | 'gestor' | 'utilizador';
